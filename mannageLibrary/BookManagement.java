@@ -4,11 +4,6 @@ import java.util.List;
 
 public class BookManagement {
     private static List<Book> books = new ArrayList<>();
-    // thêm sách nếu trùng iSBN thi quantity + them
-//    public void addBook(Book book) {
-//        books.add(book);
-//        System.out.println("Add book successful");
-//    }
 
     public void addBook(Book newBook) {
         //if ISBN existed, update quantity
